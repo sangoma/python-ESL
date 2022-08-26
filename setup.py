@@ -22,7 +22,7 @@ esl = Extension(
              'ESL/esl_threadmutex.c',
              'ESL/esl_oop.cpp',
              'ESL/ESL.i'],
-    swig_opts=['-classic', '-c++', '-DMULTIPLICITY', '-threads', '-I./ESL'],
+    swig_opts=['-c++', '-DMULTIPLICITY', '-threads', '-I./ESL'],
     extra_compile_args=['-I./ESL']
 )
 
